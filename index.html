@@ -129,7 +129,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('https://www.pwc.com/mt/en/services/cyber-security/cyber-attack-.gif') no-repeat center center fixed;
+            background: url('cyber.gif') no-repeat center center fixed;
             background-size: cover;
             z-index: 0;
         }
@@ -189,7 +189,7 @@
                 hintElement.classList.remove('hidden'); // Ensure hint is visible
                 hintElement.style.animation = 'blink 6s linear infinite'; // Apply slower blinking effect
 
-                document.getElementById('gifContainer').innerHTML = '<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2xtNXlxbjdjazJzbzN1cnQ0eXY5ZGQzcGw1cWQ2Nnc4dnZocWRqZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dcW0P1qyHTfvmo377C/giphy.gif" alt="Success GIF">';
+                document.getElementById('gifContainer').innerHTML = '<img src="munna.gif" alt="Success GIF">';
                 document.getElementById('result').innerHTML = '<p class="flag">Flag: CTF{tachyonX33B00M}</p>';
                 document.body.style.backgroundImage = 'url(https://www.pwc.com/mt/en/services/cyber-security/cyber-attack-.gif)'; // Set background GIF
                 
@@ -202,7 +202,7 @@
                 }, 5000);
             } else {
                 // Show loading GIF for normal queries
-                document.getElementById('gifContainer').innerHTML = '<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzVobnoyaWhrNms4Y25zbmNjMGp6cHJpZ3B0Y3FvM2E0MGd5dmt6aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QoVXpbaqrlvtNk0W1v/giphy.gif" alt="Loading GIF">';
+                document.getElementById('gifContainer').innerHTML = '<img src="panvel.gif" alt="Loading GIF">';
                 document.getElementById('hintContainer').innerHTML = '<p>Take it easy, the real fun begins when you discover XSS vulnerabilities.</p>';
                 document.getElementById('hintContainer').classList.remove('hidden'); // Show hint for non-XSS queries
             }
